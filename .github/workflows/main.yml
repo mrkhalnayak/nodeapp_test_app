@@ -23,7 +23,4 @@ jobs:
         with:
           context: .
           push: true
-          run: |
-            docker build -t vikash1997/nodeapp_test2:v1 .
-            docker push vikash1997/nodeapp_test2:v1 
-
+          tags: vikash1997/nodeapp_test2:v1
