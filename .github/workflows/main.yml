@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: thetips4you/testjodejsapp
+          images: vikash1997/nodeapp_test-1
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
